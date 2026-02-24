@@ -34,7 +34,7 @@ Reservice is a comprehensive full-stack web application designed for managing se
 ├── frontend             # React/Vite Frontend Application
 │   ├── src              # Source code (components, pages, context, etc.)
 │   └── package.json     # Frontend dependencies
-├── SHRIDHAR-BACKEND     # Node/Express Backend Application
+├── backend              # Node/Express Backend Application
 │   ├── src              # Server source code (controllers, routes, models, etc.)
 │   └── package.json     # Backend dependencies
 └── package.json         # Root package manager for concurrent execution
@@ -56,7 +56,7 @@ Reservice is a comprehensive full-stack web application designed for managing se
    npm run install:all
    ```
 3. **Set up environment variables:**
-   - Navigate to `SHRIDHAR-BACKEND` and create a `.env` file based on `.env.example`.
+   - Navigate to `backend` and create a `.env` file based on `.env.example`.
    - Update `frontend/.env` with required Vite environment variables (like Socket URL and API endpoints).
 4. **Run the application (Development Mode):**
    Run both frontend and backend concurrently from the root directory:
